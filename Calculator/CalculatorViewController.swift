@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CalculatorViewController.swift
 //  Calculator
 //
 //  Created by Anand Nigam on 23/09/18.
@@ -8,18 +8,29 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CalculatorViewController: UIViewController {
 
+    @IBOutlet weak var displayLabel: UILabel!
+    
+    @IBAction func numberButtonPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func calculationButtonPressed(_ sender: UIButton) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
+ 
+    
 
 }
-
