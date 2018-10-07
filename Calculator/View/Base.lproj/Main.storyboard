@@ -253,7 +253,9 @@
                                                 <rect key="frame" x="180" y="0.0" width="85" height="114.66666666666667"/>
                                                 <color key="backgroundColor" red="1" green="0.5503062581" blue="0.026265083169999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                <state key="normal" title="+"/>
+                                                <state key="normal" title="π">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="calculationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fKg-gF-mt8"/>
                                                 </connections>
